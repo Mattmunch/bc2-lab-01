@@ -1,0 +1,59 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="home/options.css">
+        <link rel="stylesheet" href="home/image-list.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="assets/awesome-logo.png" alt="Awesome logo">
+            <h1>Photo Gallery</h1>
+        </header>
+
+        <main>
+            <section class="options">
+                <select class="image-type-filter">
+                    <option value="any" checked>Any</option>
+                    <option value="narwhal">Narwhal</option>
+                    <option value="rhino">Rhino</option>
+                    <option value="unicorn">Unicorn</option>
+                    <option value="unilego">Unilego</option>
+                    <option value="triceratops">Triceratops</option>
+                    <option value="markhor">Markhor</option>
+                    <option value="mouflon">Mouflon</option>
+                    <option value="addax">Addax</option>
+                    <option value="chameleon">Chameleon</option>
+                    <option value="lizard">Lizard</option>
+                    <option value="dragon">Dragon</option>
+                </select>
+                <select class="horn-filter">
+                        <option value='any' checked>Any</option>
+                    <option value='1'>1 Horn</option>
+                    <option value='2'>2 Horns</option>
+                    <option value='3'>3 Horns</option>
+                    <option value='100'>100 Horns</option>
+                </select>
+            </section>
+
+            <section class="list-section">
+                <ul class="images">
+                </ul>
+            </section>
+
+        </main>
+
+    </body>
+
+    </html>
+
+    <script type="module" src="./home/app.js"></script>
+</body>
+
+</html>
